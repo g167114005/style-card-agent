@@ -1,0 +1,21 @@
+/* 只為了在瀏覽器檢查內容；顏色取自 style/STYLE.md 色票。不放插圖。 */
+body { margin: 0; background: #e9e3d6; font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif; color: #2F3E5C; }
+.card { width: 512px; min-height: 768px; margin: 24px auto; padding: 28px 30px 20px; box-sizing: border-box;
+  background-color: #FBF7EE;
+  background-image: linear-gradient(#ece6d8 1px, transparent 1px), linear-gradient(90deg, #ece6d8 1px, transparent 1px);
+  background-size: 16px 16px; border-radius: 14px; box-shadow: 0 6px 18px rgba(0,0,0,.15);
+  display: flex; flex-direction: column; gap: 14px; }
+.series { align-self: center; margin: 0; padding: 4px 14px; border-radius: 999px; background: #9CC9E8; font-size: 13px; font-weight: 700; }
+header { text-align: center; background: #fff; border: 2px solid #2F3E5C; border-radius: 12px; padding: 10px; }
+h1 { margin: 0; font-size: 30px; }
+.sub { margin: 4px 0 0; font-size: 15px; }
+.block { border-radius: 12px; padding: 10px 14px; }
+.block[data-n="1"] { background: #8FD3C1; }
+.block[data-n="2"] { background: #FBE7A1; }
+.block[data-n="3"] { background: #F6B8B8; }
+h2 { margin: 0 0 4px; font-size: 18px; display: flex; gap: 8px; align-items: center; }
+.badge { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: #fff; }
+.block p { margin: 0; font-size: 15px; line-height: 1.5; }
+.bubble { align-self: flex-end; background: #fff; border: 2px solid #2F3E5C; border-radius: 16px; padding: 6px 12px; font-weight: 700; }
+.bubble::before { content: "腦腦醫師："; color: #E8736C; }
+footer { margin-top: auto; display: flex; justify-content: space-between; font-size: 12px; border-top: 1px dashed #2F3E5C; padding-top: 6px; }

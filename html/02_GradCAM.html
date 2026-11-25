@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grad-CAM 熱圖｜看懂中風 AI 教學圖卡</title>
+<link rel="stylesheet" href="card.css">
+</head>
+<body>
+<main class="card">
+  <p class="series" data-field="series">看懂中風 AI 教學圖卡</p>
+  <header>
+    <h1 data-field="title">Grad-CAM 熱圖</h1>
+    <p class="sub" data-field="subtitle">模型看了影像的哪裡？</p>
+  </header>
+  <section class="block" data-n="1" data-icon="a simplified cartoon axial brain CT slice with a soft red-yellow heat blob over one region">
+    <h2><span class="badge">①</span><span data-field="b1-head">它是什麼</span></h2>
+    <p data-field="b1-body">在 CT 或 MRI 上疊一張熱圖，越紅代表模型越依賴那一塊。</p>
+  </section>
+  <section class="block" data-n="2" data-icon="arrows flowing backward through stacked layer blocks into a coarse small grid">
+    <h2><span class="badge">②</span><span data-field="b2-head">怎麼算</span></h2>
+    <p data-field="b2-body">從最後一層特徵回推梯度，算出每格重要性，再放大貼回原圖。</p>
+  </section>
+  <section class="block" data-n="3" data-icon="a magnifying glass over a blurry heatmap edge with a small warning triangle">
+    <h2><span class="badge">③</span><span data-field="b3-head">要小心</span></h2>
+    <p data-field="b3-body">解析度粗、怕假影，也看不到 NIHSS 等非影像資料。</p>
+  </section>
+  <aside class="bubble" data-field="bubble">只說看哪裡，不保證看對！</aside>
+  <footer><span data-field="author">北醫 G167114005 鄭為遠</span><span data-field="page">2/3</span></footer>
+</main>
+</body>
+</html>

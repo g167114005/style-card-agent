@@ -1,0 +1,28 @@
+請直接用影像生成工具畫出這張圖，不要先問問題。吉祥物請完全沿用本對話上面那張「腦腦醫師 Dr. NAO」角色設定圖（reference image）。
+
+Create ONE vertical 2:3 single-page teaching card (portrait).
+
+STYLE: "Clinical-clipboard hand-drawn health-education card" (病歷夾手繪衛教風).
+Cream grid-notebook paper (#FBF7EE) clipped onto a light-wood clinical clipboard.
+Soft pastel palette: mint green #8FD3C1, baby blue #9CC9E8, peach pink #F6B8B8, butter yellow #FBE7A1,
+text in deep navy #2F3E5C, warning accents in coral red #E8736C.
+Thin hand-drawn outlines, light watercolor wash, gentle shadows, washi tape, tiny stars and medical crosses used sparingly.
+Rounded sticky-note panels with circular number badges. Bold rounded headline lettering, clean sans-serif body text.
+Mascot "Dr. NAO": a chubby pink brain-shaped character with simplified soft folds, light-blue surgical cap,
+silver stethoscope, small white doctor's coat, black bean eyes, pink blush, tiny smile, short arms and legs
+— must match the reference mascot image exactly.
+No photorealism, no 3D chrome, no dark background, no real logos or brands, no gore, no real patient images.
+All text must be Traditional Chinese, copied character-by-character exactly as given; add no other text.
+
+LAYOUT (top to bottom, keep exactly this structure):
+- Top: small rounded pill label with text 「看懂中風 AI 教學圖卡」.
+- Below it: big headline banner held by washi tape, headline 「Grad-CAM 熱圖」, one-line subtitle 「模型看了影像的哪裡？」.
+- Middle: three rounded pastel sticky-note panels stacked vertically, each with a circular number badge:
+  Panel 1 (badge ①): heading 「它是什麼」, body 「在 CT 或 MRI 上疊一張熱圖，越紅代表模型越依賴那一塊。」; small doodle beside it: a simplified cartoon axial brain CT slice with a soft red-yellow heat blob over one region.
+  Panel 2 (badge ②): heading 「怎麼算」, body 「從最後一層特徵回推梯度，算出每格重要性，再放大貼回原圖。」; small doodle beside it: arrows flowing backward through stacked layer blocks into a coarse small grid.
+  Panel 3 (badge ③): heading 「要小心」, body 「解析度粗、怕假影，也看不到 NIHSS 等非影像資料。」; small doodle beside it: a magnifying glass over a blurry heatmap edge with a small warning triangle.
+- Bottom-right: the mascot Dr. NAO (same character as the reference image) with a speech bubble 「只說看哪裡，不保證看對！」.
+- Footer strip: left 「北醫 G167114005 鄭為遠」, right 「2/3」.
+
+TEXT RULES: render every quoted Traditional Chinese string exactly, character by character, clearly legible;
+do not translate, do not add any other words.

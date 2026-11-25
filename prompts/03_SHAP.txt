@@ -1,0 +1,28 @@
+請直接用影像生成工具畫出這張圖，不要先問問題。吉祥物請完全沿用本對話上面那張「腦腦醫師 Dr. NAO」角色設定圖（reference image）。
+
+Create ONE vertical 2:3 single-page teaching card (portrait).
+
+STYLE: "Clinical-clipboard hand-drawn health-education card" (病歷夾手繪衛教風).
+Cream grid-notebook paper (#FBF7EE) clipped onto a light-wood clinical clipboard.
+Soft pastel palette: mint green #8FD3C1, baby blue #9CC9E8, peach pink #F6B8B8, butter yellow #FBE7A1,
+text in deep navy #2F3E5C, warning accents in coral red #E8736C.
+Thin hand-drawn outlines, light watercolor wash, gentle shadows, washi tape, tiny stars and medical crosses used sparingly.
+Rounded sticky-note panels with circular number badges. Bold rounded headline lettering, clean sans-serif body text.
+Mascot "Dr. NAO": a chubby pink brain-shaped character with simplified soft folds, light-blue surgical cap,
+silver stethoscope, small white doctor's coat, black bean eyes, pink blush, tiny smile, short arms and legs
+— must match the reference mascot image exactly.
+No photorealism, no 3D chrome, no dark background, no real logos or brands, no gore, no real patient images.
+All text must be Traditional Chinese, copied character-by-character exactly as given; add no other text.
+
+LAYOUT (top to bottom, keep exactly this structure):
+- Top: small rounded pill label with text 「看懂中風 AI 教學圖卡」.
+- Below it: big headline banner held by washi tape, headline 「SHAP 特徵貢獻」, one-line subtitle 「每個特徵把預測推多少？」.
+- Middle: three rounded pastel sticky-note panels stacked vertically, each with a circular number badge:
+  Panel 1 (badge ①): heading 「它是什麼」, body 「像小組分功勞：算出每個特徵把預測往上推或往下拉多少。」; small doodle beside it: four tiny team members sharing one trophy.
+  Panel 2 (badge ②): heading 「怎麼算」, body 「讓特徵輪流加入或拿掉，比較預測變化，再取平均。」; small doodle beside it: puzzle pieces being added and removed with plus and minus signs.
+  Panel 3 (badge ③): heading 「要小心」, body 「特徵高度相關時排名會變；排名高不等於有額外預測價值。」; small doodle beside it: a horizontal bar chart with coral bars pushing right and baby-blue bars pushing left, plus a small warning sign.
+- Bottom-right: the mascot Dr. NAO (same character as the reference image) with a speech bubble 「解釋模型，不是人體因果！」.
+- Footer strip: left 「北醫 G167114005 鄭為遠」, right 「3/3」.
+
+TEXT RULES: render every quoted Traditional Chinese string exactly, character by character, clearly legible;
+do not translate, do not add any other words.

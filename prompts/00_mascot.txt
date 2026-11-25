@@ -1,0 +1,20 @@
+請直接用影像生成工具畫出這張圖，不要先問問題。
+
+Create a character design sheet (landscape) for an original mascot.
+
+STYLE: "Clinical-clipboard hand-drawn health-education card" (病歷夾手繪衛教風).
+Cream grid-notebook paper (#FBF7EE) clipped onto a light-wood clinical clipboard.
+Soft pastel palette: mint green #8FD3C1, baby blue #9CC9E8, peach pink #F6B8B8, butter yellow #FBE7A1,
+text in deep navy #2F3E5C, warning accents in coral red #E8736C.
+Thin hand-drawn outlines, light watercolor wash, gentle shadows, washi tape, tiny stars and medical crosses used sparingly.
+Rounded sticky-note panels with circular number badges. Bold rounded headline lettering, clean sans-serif body text.
+Mascot "Dr. NAO": a chubby pink brain-shaped character with simplified soft folds, light-blue surgical cap,
+silver stethoscope, small white doctor's coat, black bean eyes, pink blush, tiny smile, short arms and legs
+— must match the reference mascot image exactly.
+No photorealism, no 3D chrome, no dark background, no real logos or brands, no gore, no real patient images.
+All text must be Traditional Chinese, copied character-by-character exactly as given; add no other text.
+
+SHEET CONTENT: the mascot Dr. NAO shown in front view, side view and back view in a row,
+plus three small expression heads below: happy, thinking, surprised.
+Clean cream grid-paper background, pastel colour swatches of the palette in one corner.
+Only text allowed on the sheet: 「腦腦醫師 Dr. NAO」 as the title.

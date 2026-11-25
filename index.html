@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>看懂中風 AI 教學圖卡｜統一風格圖像產生的 Agent</title>
+<style>
+  body { margin: 0; background: #FBF7EE; color: #2F3E5C; font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+  header { text-align: center; padding: 32px 16px 8px; }
+  h1 { margin: 0 0 6px; font-size: 28px; }
+  p.meta { margin: 0; font-size: 14px; }
+  .mascot { display: block; max-width: 720px; width: 92%; margin: 24px auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; max-width: 1100px; margin: 0 auto; padding: 0 16px 24px; }
+  .grid img { width: 100%; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); }
+  section.flow { max-width: 760px; margin: 0 auto 40px; padding: 0 16px; line-height: 1.7; }
+  code { background: #8FD3C1; padding: 1px 6px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>看懂中風 AI 教學圖卡</h1>
+  <p class="meta">統一風格圖像產生的 Agent｜北醫 G167114005 鄭為遠｜生成式 AI 第 12 週作業</p>
+</header>
+<img class="mascot" src="style/ref/mascot.png" alt="角色設定圖：腦腦醫師 Dr. NAO">
+<div class="grid">
+  <img src="output/01_NIHSS.png" alt="NIHSS 中風量表">
+  <img src="output/02_GradCAM.png" alt="Grad-CAM 熱圖">
+  <img src="output/03_SHAP.png" alt="SHAP 特徵貢獻">
+</div>
+<section class="flow">
+  <h2>製作流程</h2>
+  <p><code>notes</code> 內容筆記 → skill <b>notes-to-html</b> → <code>html</code> 一頁式網頁（只有內容）→ skill <b>html-to-png</b> → <code>png</code> 教學圖卡。</p>
+  <p>風格只寫在 <code>style/STYLE.md</code>，內容只寫在 HTML；生圖時每次都貼上同一份風格描述，並沿用同一張角色設定圖，因此三張圖卡風格一致。詳見 README。</p>
+</section>
+</body>
+</html>

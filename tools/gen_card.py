@@ -172,6 +172,10 @@ def edit(prompt: str, size: str, refs: list[Path]) -> tuple[dict, dict]:
 
 # ---------- 存檔與紀錄 ----------
 def save_png(resp: dict, out: Path) -> None:
+    try:
+        data = base64.b64decode(resp["data"][0]["b64_json"])
+    except (KeyError, IndexError, TypeError, ValueError):
+        sys.exit(f"API 回應沒有圖片資料：{json.dumps(resp, ensure_ascii=False)[:500]}")
     out.parent.mkdir(parents=True, exist_ok=True)
     if out.exists():
         n = 1
@@ -179,7 +183,7 @@ def save_png(resp: dict, out: Path) -> None:
             n += 1
         out.rename(bak)
         print(f"  舊檔保留為 {bak.relative_to(ROOT)}")
-    out.write_bytes(base64.b64decode(resp["data"][0]["b64_json"]))
+    out.write_bytes(data)
 
 
 def write_log(name: str, meta: dict, prompt: str, secs: float, resp: dict, out: Path) -> Path:

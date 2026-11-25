@@ -1,0 +1,74 @@
+<p><strong>北醫 G167114005 醫學院人工智慧醫療碩士在職專班 碩二 鄭為遠 統一風格圖像產生的 Agent</strong></p>
+<p>作品頁：<a href="https://g167114005.github.io/style-card-agent/" target="_blank">https://g167114005.github.io/style-card-agent/</a><br>GitHub（所有設定、指令、截圖）：<a href="https://github.com/g167114005/style-card-agent" target="_blank">https://github.com/g167114005/style-card-agent</a></p>
+
+<h2>1. 使用的 AI 工具與專案指示</h2>
+<p>工具：<strong>ChatGPT 桌面 App 的「專案」功能</strong>，專案名稱「看懂中風 AI 統一風格圖像 Agent」。專案指示寫入下面的風格規則；專案來源上傳了角色設定圖 mascot.png。這張圖是我先在一般對話中用同一套風格規則生成的。</p>
+<p><img src="https://raw.githubusercontent.com/g167114005/style-card-agent/main/style/ref/mascot.png" alt="角色設定圖 腦腦醫師 Dr. NAO" width="600"></p>
+<p>專案指示（第 2 版，全文）：</p>
+<blockquote>
+<p>你是「看懂中風 AI」系列的專屬美術 Agent。每次收到用途與文字，就直接用影像生成工具畫出作品，不要先問問題。所有作品都必須遵守以下風格規則：</p>
+<p>【最高優先：背景】不論用途或尺寸（包括 16:9 投影片封面），背景一律是米白方格紙，放在淺木色病歷夾上；橫式作品就把病歷夾橫放。絕對不要使用深色、藍色、漸層或科技感背景，也不要畫電路板、發光線條或 HUD 元素。<br>
+【生圖前自我檢查】下筆前逐項確認：① 背景是米白方格紙；② 只用規定的色票；③ 腦腦醫師和 mascot.png 一致，不戴眼鏡；④ 有頂部膠囊標籤和左下頁腳。任何一項不符合，就照規則重畫。<br>
+【風格名稱】病歷夾手繪衛教風<br>
+【底材】米白方格筆記紙（#FBF7EE），夾在淺木色病歷夾上，頂端有銀色金屬夾。橫式作品同樣用方格紙，四角貼紙膠帶。<br>
+【色票】只用這幾色：薄荷綠 #8FD3C1、嬰兒藍 #9CC9E8、蜜桃粉 #F6B8B8、奶油黃 #FBE7A1；文字一律深藏青 #2F3E5C；警示用珊瑚紅 #E8736C。<br>
+【筆觸】手繪細線、淡水彩暈染、柔和陰影。點綴紙膠帶、小星星、醫療十字，但不要太多。<br>
+【版面元素】頂部是膠囊形小標籤，寫系列名「看懂中風 AI」；標題是紙膠帶貼著的大標題橫幅，下方一行副標；內容放在圓角便利貼區塊，左上角放圓形編號徽章 ①②③；標題用粗圓體，內文用清楚的黑體。<br>
+【角色】吉祥物「腦腦醫師 Dr. NAO」：粉紅色大腦造型、淺藍手術帽、銀色聽診器、白色醫師袍、黑豆眼、粉腮紅、短手短腳。外型必須和專案來源中的 mascot.png 完全一致：不戴眼鏡、不改造型、不改比例。每張作品都要出現一次，並配一個對話框。<br>
+【頁腳】左下角細字「北醫 G167114005 鄭為遠」。<br>
+【文字】一律使用繁體中文，逐字照抄使用者提供的文字，不得增加、刪減或改寫。<br>
+【尺寸】依使用者指定的用途：學習圖卡用 2:3 直式；衛教海報用 2:3 直式並放大字級；投影片封面用 16:9 橫式。<br>
+【禁止】寫實照片、3D 金屬質感、暗色背景、真實 logo 或品牌、他人的角色、血腥或真實病人影像。</p>
+</blockquote>
+<p>第 1 版沒有「最高優先：背景」和「生圖前自我檢查」兩條，角色描述也沒寫「不戴眼鏡」。為什麼要改，見第 4 節。</p>
+
+<h2>2. 製作流程</h2>
+<ol>
+<li><strong>先定風格</strong>：把色票、筆觸、版面元素、角色和禁止事項寫成具體規則（上面的專案指示），再生成角色設定圖，作為角色的唯一參考。</li>
+<li><strong>建專案</strong>：在 ChatGPT 建立專案，把規則貼進「指示」，把 mascot.png 上傳到「來源」。</li>
+<li><strong>下指令</strong>：風格都交給專案指示，每次只寫「用途、尺寸、文字」。例如投影片封面只寫：<br>
+「用途：投影片封面，16:9 橫式。標題：看懂中風 AI；副標：從 NIHSS 到 Grad-CAM、SHAP；講者列：鄭為遠｜北醫 AI 醫療碩專；腦腦醫師拿著指揮棒指向標題，對話框：『一起來看懂 AI！』」</li>
+<li><strong>檢查、修正</strong>：每張生成後，對照專案指示檢查背景、色票、角色、版面元素和文字。不符合就修改設定或指令，再重畫（見第 4 節）。</li>
+</ol>
+<p>這份作業的操作過程，包括建立專案、貼指示、上傳參考圖、下指令和下載，都是由 Claude 透過電腦操作完成，每一步都截了圖，放在 GitHub 的 screenshots/project/。</p>
+
+<h2>3. 作品（同一專案、三種用途與尺寸）</h2>
+<p><strong>作品一：投影片封面（16:9 橫式）</strong><br><img src="https://raw.githubusercontent.com/g167114005/style-card-agent/main/output/project/P1_cover.png" alt="投影片封面" width="700"></p>
+<p><strong>作品二：衛教海報「中風快篩 BE FAST」（2:3 直式）</strong><br><img src="https://raw.githubusercontent.com/g167114005/style-card-agent/main/output/project/P2_poster.png" alt="衛教海報" width="420"></p>
+<p><strong>作品三：學習圖卡「Grad-CAM vs SHAP」（2:3 直式）</strong><br><img src="https://raw.githubusercontent.com/g167114005/style-card-agent/main/output/project/P3_card.png" alt="學習圖卡" width="420"><br>（圖中 SHAP 長條圖的數值是模型自行畫的示意，不是真實資料。）</p>
+<p>另外，專案版之前我先做了一版同風格的三張教學圖卡（NIHSS、Grad-CAM、SHAP），放在作品頁下半部。</p>
+
+<h2>4.（加分）哪裡看得出風格一致、跑掉時怎麼修正</h2>
+<p><strong>一致的地方</strong>：</p>
+<ul>
+<li>三件作品的尺寸和用途都不同，但都是米白方格紙加淺木色病歷夾。</li>
+<li>都用同一組粉彩色票（薄荷綠、嬰兒藍、蜜桃粉、奶油黃）和深藏青文字。</li>
+<li>都有紙膠帶大標題和圓角便利貼，便利貼上有編號徽章。</li>
+<li>都由同一隻「腦腦醫師」配對話框出場：淺藍手術帽、聽診器、白袍。</li>
+</ul>
+<p><strong>風格跑掉兩次，以及怎麼修正</strong>：</p>
+<ol>
+<li><strong>封面第一次跑掉</strong>：背景變成深藍科技風，腦腦醫師多了眼鏡。我判斷是 16:9 的「投影片封面」讓模型套用了科技簡報的慣例。修正方式是改專案指示：
+<ul>
+<li>新增「最高優先：背景」，寫明任何尺寸都用方格紙加病歷夾，並禁止深色或科技背景。</li>
+<li>新增「生圖前自我檢查」4 項。</li>
+<li>角色描述加上「不戴眼鏡」。</li>
+</ul>
+改完後要求重畫，風格就回來了。<br>
+<img src="https://raw.githubusercontent.com/g167114005/style-card-agent/main/output/project/P1_cover_drift.png" alt="封面修正前" width="420"> → <img src="https://raw.githubusercontent.com/g167114005/style-card-agent/main/output/project/P1_cover.png" alt="封面修正後" width="420"></li>
+<li><strong>海報第一次跑掉</strong>：在新對話裡，模型沒有用腦腦醫師，改畫一位護理師，畫風也變成一般漫畫。可見只把參考圖放在專案「來源」，新對話不一定會拿來用。修正方式是在對話中直接附上 mascot.png，並要求照專案指示重畫，就修正了。<br>
+<img src="https://raw.githubusercontent.com/g167114005/style-card-agent/main/output/project/P2_poster_drift.png" alt="海報修正前" width="280"> → <img src="https://raw.githubusercontent.com/g167114005/style-card-agent/main/output/project/P2_poster.png" alt="海報修正後" width="280"></li>
+<li><strong>學到的做法</strong>：之後每開一個新對話，就先附上 mascot.png，再下指令。第三件學習圖卡用這個做法，第一次就符合風格。</li>
+</ol>
+
+<h2>5. 額外嘗試：讓 AI Agent 自己完成生圖</h2>
+<ul>
+<li><strong>先做 API 版（失敗）</strong>：
+<ul>
+<li>我先讓 Claude 寫了一支 Python agent（tools/gen_card.py）。它會解析 HTML 內容、組出「風格規則＋版型＋逐字文字」的 prompt，再呼叫 OpenAI Images API（/v1/images/edits，附上角色參考圖），自動存檔並記錄每次呼叫的 log。run_all.bat 一鍵就能跑完 4 張。</li>
+<li>實際執行時失敗了兩次：① Claude 的執行環境有網路白名單，連不到 api.openai.com；② 在我自己的 Windows 上執行時，發現沒有 OPENAI_API_KEY，因為我用的是 ChatGPT 訂閱，不是 API 帳號。</li>
+<li>交叉審閱時，GPT 另外指出 gpt-image-1 已於 2026/10/23 停用，程式改成可以指定新模型。API 版的程式已放在 GitHub，有金鑰就能跑。</li>
+</ul></li>
+<li><strong>改成讓 Claude 操作 ChatGPT 桌面版（成功）</strong>：用 Claude 的「電腦操作」功能，直接控制我電腦上的 ChatGPT App。建專案、貼指示、上傳參考圖、下指令、檢查成品、發現風格跑掉就修改設定重畫、下載存檔，全程都由 Claude 完成，我只負責決策。等於 Claude 當「導演」、GPT 當「畫家」，兩個 AI 分工完成一個統一風格的生圖流程。每一步的截圖都在 GitHub 的 screenshots/ 資料夾。</li>
+<li><strong>兩條路的比較</strong>：API 版可重現、可批次處理，但需要 API 金鑰和網路權限；桌面 App 版不需要金鑰，也能用到「專案」功能，但速度比較慢，也要靠截圖留紀錄。</li>
+</ul>

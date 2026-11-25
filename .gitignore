@@ -1,2 +1,5 @@
 .env
+.env.txt
 __pycache__/
+xreview_results/
+run_xreview.bat

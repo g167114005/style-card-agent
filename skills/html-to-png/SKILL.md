@@ -10,7 +10,7 @@ description: 讀取固定版型的 HTML，組成「風格合約＋逐字內容�
 - **API**：照下面的步驟執行。
 
 ## 前置（只做一次）
-1. 設好金鑰：PowerShell `setx OPENAI_API_KEY "sk-..."`（重開視窗生效），或在專案根目錄建 `.env`：`OPENAI_API_KEY=sk-...`
+1. 設好金鑰：在 PowerShell 執行 `$env:OPENAI_API_KEY = "sk-..."`，只在目前視窗有效；或在專案根目錄建 `.env`，內容 `OPENAI_API_KEY=sk-...`。用 `$env:IMAGE_MODEL` 指定影像模型，預設 gpt-image-2.5-flare；gpt-image-1 已於 2026-10-23 停用。
 2. 先產生吉祥物設定圖（之後每張都拿它當參考圖）：
    ```
    python tools/gen_card.py --mascot

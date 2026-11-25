@@ -10,7 +10,7 @@
   python tools/gen_card.py html/01_NIHSS.html --fix "第②塊的『xx』寫錯，應為『yy』"
 環境變數：
   OPENAI_API_KEY   必填（或寫在專案根目錄 .env）
-  IMAGE_MODEL      選填，預設 gpt-image-1
+  IMAGE_MODEL      選填，預設 gpt-image-2.5-flare（gpt-image-1 已停用）
 """
 from __future__ import annotations
 
@@ -34,7 +34,7 @@ MASCOT = ROOT / "style" / "ref" / "mascot.png"
 OUT_DIR = ROOT / "output"
 LOG_DIR = ROOT / "logs"
 API = "https://api.openai.com/v1"
-MODEL = os.environ.get("IMAGE_MODEL", "gpt-image-1")
+MODEL = os.environ.get("IMAGE_MODEL", "gpt-image-2.5-flare")  # gpt-image-1 已於 2026-10-23 停用
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -129,9 +129,9 @@ Only text allowed on the sheet: 「腦腦醫師 Dr. NAO」 as the title."""
 # ---------- HTTP ----------
 def api_key() -> str:
     k = os.environ.get("OPENAI_API_KEY", "").strip()
-    env = ROOT / ".env"
-    if not k and env.exists():
-        for line in env.read_text(encoding="utf-8").splitlines():
+    env = next((ROOT / n for n in (".env", ".env.txt") if (ROOT / n).exists()), None)
+    if not k and env:
+        for line in env.read_text(encoding="utf-8-sig").splitlines():
             if line.strip().startswith("OPENAI_API_KEY"):
                 k = line.split("=", 1)[1].strip().strip('"').strip("'")
     if not k:
